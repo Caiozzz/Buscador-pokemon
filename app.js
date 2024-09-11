@@ -1,13 +1,11 @@
 let sectionResults = document.getElementById("results");
 let cards = "";
-// let pokemonTags = "";
 
 for (pokemon of pokemons) {
 
    let listaDeTipos = "";
 
    for (let i = 0; i < pokemon.type.length; i++){
-      // pokemonTags += type; 
       listaDeTipos += `<span class="type ${pokemon.color[i]}">${pokemon.type[i]}</span>\n`;
    }
 
