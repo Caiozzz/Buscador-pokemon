@@ -30,7 +30,7 @@ button {
 
 .search-results {
    display: grid;
-   grid-template-columns: repeat(auto-fit, 250px);
+   grid-template-columns: repeat(auto-fit, 220px);
    gap: .8rem;
    height: 500px;
    padding: 0 4rem;
