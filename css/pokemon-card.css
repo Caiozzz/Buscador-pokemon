@@ -1,0 +1,132 @@
+.pokemon-card {
+   background-image: url(../img/card-bg2.jfif);
+   background-size: cover;
+   border: 4px solid #000090;
+   border-radius: 1rem;
+   padding: 10px;
+   text-align: center;
+   height: fit-content;
+   width: 250px;
+}
+
+.pokemon-card .image {
+   background-color: #edededdd;
+   border-radius: .6rem .6rem 0 0;
+   width: 100%;
+}
+.pokemon-card .image img {
+   max-width: 150px;
+}
+
+.pokemon-card .info {
+   background-color: #ecececdd;
+   border-radius: 0 0 .6rem .6rem;
+   padding: .5rem;
+   margin-top: 1rem;
+}
+
+.pokemon-card .name {
+   margin: 0  0 .5rem;
+}
+
+.pokemon-card .description {
+   font-size: .9rem;
+   height: 70px;
+   margin: .5rem;
+   overflow-y: hidden;
+}
+
+.pokemon-card .type {
+   background-color: #A4ACAF;
+   border-radius: .6rem;
+   font-size: .9rem;
+   font-weight: 500;
+   padding: .2rem .3rem;
+}
+
+.pokemon-card.-grass {
+   background-image: url(../img/card-bg-grass.jpg);
+}
+.type.-grass {
+   background-color: #9BCC50;
+}
+
+.pokemon-card.-fire {
+   background-image: url(../img/card-bg-fire.jpg);
+}
+.type.-fire {
+   background-color: #FD7D24;
+}
+
+.pokemon-card.-water {
+   background-image: url(../img/card-bg-water.jpg);
+}
+.type.-water {
+   background-color: #4592C4;
+}
+
+.pokemon-card.-bug {
+   background-image: url(../img/card-bg-bug.png);
+}
+.type.-bug {
+   background-color: #729f3f;
+   color: white;
+}
+
+.pokemon-card.-flying {
+   background-image: url(../img/card-bg-flying.png);
+}
+.type.-flying {
+   background: linear-gradient(180deg, #3dc7ef 50%, #bdb9b8 50%);
+}
+
+.pokemon-card.-poison {
+   background-image: url(../img/card-bg-poison.png);
+}
+.type.-poison {
+   background-color: #B97FC9;
+}
+
+.pokemon-card.-electric {
+   background-image: url(../img/card-bg-electric.jpg);
+}
+.type.-electric {
+   background-color: #EED535;
+}
+
+.pokemon-card.-ground {
+   background-image: url(../img/card-bg-ground.png);
+}
+.type.-ground {
+   background: linear-gradient(180deg, #f7de3f 50%, #ab9842 50%);
+}
+
+.pokemon-card.-fairy {
+   background-image: url(../img/card-bg-fairy.png);
+}
+.type.-fairy {
+   background-color: #FDB9E9;
+}
+
+.type.-fighting {
+   background-color: #D56723;
+}
+
+.type.-psychic {
+   background-color: #F366B9;
+}
+
+.pokemon-card.-rock {
+   background-image: url(../img/card-bg-rock.png);
+}
+.type.-rock {
+   background-color: #A38C21;
+}
+
+.pokemon-card.-ghost {
+   background-image: url(../img/card-bg-ghost.png);
+}
+.type.-ghost {
+   background-color: #7B62A3;
+   color: white;
+}
