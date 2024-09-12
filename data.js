@@ -2,8 +2,8 @@ const pokemons = [
    {
       name: "Bulbassauro",
       description: "Uma semente cresce nas suas costas a partir do nascimento e floresce com o passar do tempo.",
-      type: ["Grama", "Veneno"],
-      color: ["-grass", "-poison"],
+      type: ["Planta", "Veneno"],
+      color: ["-plant", "-poison"],
       image: "./img/001.png"
    },
    {
@@ -183,7 +183,7 @@ const pokemons = [
    },
    {
       name: "Snorlax",
-      description: "Quando está acordado, este Pokémon come incansavelmente. Diz-se que ele pode comer mais de mil quilogramas de comida por dia.",
+      description: "Quando está acordado, este Pokémon come incansavelmente. Diz-se que ele pode comer mais de mil quiloPlantas de comida por dia.",
       type: ["Normal"],
       color: [""],
       image: "./img/143.png"

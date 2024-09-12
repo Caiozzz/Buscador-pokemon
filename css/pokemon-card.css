@@ -45,10 +45,10 @@
    padding: .2rem .3rem;
 }
 
-.pokemon-card.-grass {
-   background-image: url(../img/card-bg-grass.jpg);
+.pokemon-card.-plant {
+   background-image: url(../img/card-bg-plant.jpg);
 }
-.type.-grass {
+.type.-plant {
    background-color: #9BCC50;
 }
 
