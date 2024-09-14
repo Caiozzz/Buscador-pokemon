@@ -1,0 +1,21 @@
+.search-results {
+   text-align: center;
+   height: calc(100vh - 178px - 50px);
+   padding: 0 4rem;
+   overflow-y: scroll;
+}
+
+.search-results .error-message {
+   background-color: #1a1a1ade;
+   border-radius: .2rem;
+   color: #fe2c2c;
+   display: inline-block;
+   font-size: 1.2rem;
+   padding: .2rem .5rem;
+}
+
+.cards-list {
+   display: grid;
+   grid-template-columns: repeat(auto-fit, 220px);
+   gap: .8rem;
+}
