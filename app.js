@@ -58,7 +58,9 @@ function filtrar() {
 
    for (pokemon of pokemons) {
 
-      if (pokemon.type.includes(selection)) {
+      if (selection == "") {
+         cards += adicionarPokemon(pokemon);
+      } else if (pokemon.type.includes(selection)) {
          cards += adicionarPokemon(pokemon);
       }
    }
