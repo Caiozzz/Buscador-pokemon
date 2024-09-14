@@ -6,6 +6,7 @@
    <title>Buscador pokémon</title>
    <link rel="stylesheet" href="./css/styles.css">
    <link rel="stylesheet" href="./css/header.css">
+   <link rel="stylesheet" href="./css/search-field.css">
    <link rel="stylesheet" href="./css/main.css">
    <link rel="stylesheet" href="./css/pokemon-card.css">
 </head>
@@ -13,8 +14,28 @@
    <header>
       <h1>Pokémons mais populares</h1>
       <div class="search-field">
-         <input id="input" type="text" placeholder="Pesquise por um pokémon">
-         <button onclick="pesquisar()">Pesquisar</button>
+         <input class="input" id="input" type="text" placeholder="Pesquise por um pokémon">
+         <button class="button" onclick="pesquisar()">Pesquisar</button>
+      </div>
+      <div class="search-field">
+         <button class="button" onclick="filtrar()">Exibir</button>
+         <select class="selection" name="filtro" id="filter">
+            <option value="">Todos</option>
+            <option class="-plant" value="Planta">Planta</option>
+            <option class="-fire" value="Fogo">Fogo</option>
+            <option class="-water" value="Água">Água</option>
+            <option class="-bug" value="Inseto">Inseto</option>
+            <option class="-flying" value="Voador">Voador</option>
+            <option class="-normal" value="Normal">Normal</option>
+            <option class="-poison" value="Veneno">Veneno</option>
+            <option class="-electric" value="Elétrico">Elétrico</option>
+            <option class="-ground" value="Terra">Terra</option>
+            <option class="-fairy" value="Fada">Fada</option>
+            <option class="-fighting" value="Lutador">Lutador</option>
+            <option class="-psychic" value="Psíquico">Psíquico</option>
+            <option class="-rock" value="Pedra">Pedra</option>
+            <option class="-ghost" value="Fantasma">Fantasma</option>
+         </select>
       </div>
    </header>
    <main id="results" class="search-results">

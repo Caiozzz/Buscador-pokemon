@@ -1,0 +1,80 @@
+.search-field {
+   /* border-radius: 2rem; */
+   display: flex;
+}
+
+.search-field > :first-child {
+   border-radius: 1rem 0 0 1rem;
+}
+.search-field > :last-child {
+   border-radius: 0 1rem 1rem 0;
+}
+
+.search-field > .input,
+.search-field > .selection {
+   border: none;
+   font-size: 1rem;
+   padding: .5rem .8rem;
+   outline: none;
+}
+.search-field > .selection {
+   padding: .4rem;
+}
+
+.selection > option {
+   background-color: #fa6060;
+}
+.selection > option.-plant {
+   background-color: #9BCC50;
+}
+.selection > option.-fire {
+   background-color: #FD7D24;
+}
+.selection > option.-water {
+   background-color: #4592C4;
+}
+.selection > option.-bug {
+   background-color: #729f3f;
+   color: white;
+}
+.selection > option.-flying {
+   background: linear-gradient(180deg, #3dc7ef 50%, #bdb9b8 50%);
+}
+.selection > option.-normal {
+   background-color: #A4ACAF;
+}
+.selection > option.-poison {
+   background-color: #B97FC9;
+}
+.selection > option.-electric {
+   background-color: #EED535;
+}
+.selection > option.-ground {
+   background: linear-gradient(180deg, #f7de3f 50%, #ab9842 50%);
+}
+.selection > option.-fairy {
+   background-color: #FDB9E9;
+}
+.selection > option.-fighting {
+   background-color: #D56723;
+}
+.selection > option.-psychic {
+   background-color: #F366B9;
+}
+.selection > option.-rock {
+   background-color: #A38C21;
+}
+.selection > option.-ghost {
+   background-color: #7B62A3;
+   color: white;
+}
+
+.search-field > .button {
+   background-color: #fc4545;
+   border: none;
+   color: white;
+   cursor: pointer;
+   font-size: 1rem;
+   font-weight: 600;
+   padding: .5rem 1rem;
+}
