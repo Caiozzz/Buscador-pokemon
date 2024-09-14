@@ -50,3 +50,19 @@ function pesquisar() {
    }
 
 }
+
+function filtrar() {
+   let sectionResults = document.getElementById("results");
+   let selection = document.getElementById("filter").value;
+   let cards = "";
+
+   for (pokemon of pokemons) {
+
+      if (pokemon.type.includes(selection)) {
+         cards += adicionarPokemon(pokemon);
+      }
+   }
+
+   sectionResults.innerHTML = `<section class="cards-list">${cards}</section>`;
+   
+}
